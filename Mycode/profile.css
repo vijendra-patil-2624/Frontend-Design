@@ -1,0 +1,102 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}  */
+
+
+body{
+    background-color: rgba(150, 152, 153, 0.932);
+    /* position: relative;
+    display: flex;
+    justify-content: center; 
+    align-items: center; */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.card{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    
+    
+
+}
+
+.card img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 0px;
+
+}
+
+.card h2{
+    margin-bottom: 12px;
+}
+.card p{
+    color: rgb(75, 72, 72);
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 12px 25px;
+    border-radius: 10px;
+    background-color: rgb(18, 136, 97);
+    color: white;
+    margin-bottom: 2px;
+
+}
+
+
+
+
+.card2{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    margin-left: 12px;
+    text-align: center;
+    
+}
+
+.card2 img{
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.card2 h2{
+    margin-bottom: 20px;
+    
+}
+.card2 h2:hover{
+    border: 1px solid black;
+    background-color: rgb(171, 173, 175);
+    border-radius: 12px;
+}
+
+.card2 p{
+    color: gray;
+    margin-bottom: 20px;
+}
+
+
+button:hover{
+    background-color: rgb(201, 40, 147);
+}
+
+
+
+.main{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
