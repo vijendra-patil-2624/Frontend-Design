@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    background-color: lightgray;
+    height:  100vh;
+    justify-content: space-around;
+}
+.first{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    margin: 50px;
+
+}
+
+.first img{
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    margin-top: -50px;
+    margin-bottom: 10px;
+}
