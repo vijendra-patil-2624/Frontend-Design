@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    background-color: lightgray;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 900px;
+    height: 450px;
+    
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    
+}
+
+.first{
+    width: 50%;
+    background-color: rgb(211, 22, 195);
+    border-radius: 0px 50% 50% 0px;
+    display: flex;
+    color: rgb(179, 255, 0);
+    justify-content: center;
+    align-items: center;
+}
+.first p{
+    margin-left: 30px;
+    font-size: 40px;
+}
+
+.second{
+    width: 50%;
+    background-color: white;
+    
+    padding: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 3px;
+}
+
+.second form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.second input{
+    width: 300px;
+    height: 40px;
+    margin-top: 29px;
+    border-radius: 9px;
+    font-size: large;
+    padding: 8px;
+}
+
+.second button{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 60px;
+    font-size: x-large;
+    background-color: orange;
+    
+
+}
+
+.second button:hover{
+    
+    color: white;
+}
